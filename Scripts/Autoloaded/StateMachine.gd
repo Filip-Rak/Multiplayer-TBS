@@ -24,10 +24,10 @@ func change_state(new_state: GAME_STATE, parameters = {}):
 	var scene_path = ""
 	match _current_state:
 		GAME_STATE.DEBUG_LOBBY: 
-			scene_path = "res://scenes/DebugLobby.tscn"
+			scene_path = "res://Scenes/DebugLobby.tscn"
 			_gameplay_in_progress = false
 		GAME_STATE.MAP_TEST: 
-			scene_path = "res://scenes/MapTest.tscn"
+			scene_path = "res://Scenes/MapTest2.tscn"
 			_gameplay_in_progress = true
 
 	# Load the new scene

@@ -5,7 +5,7 @@ extends Node
 
 # Connection
 var peer : ENetMultiplayerPeer
-var server_port : int = 135
+var server_port : int = 8000
 var server_address = "127.0.0.1"
 const COMPRESSION := ENetConnection.COMPRESS_RANGE_CODER
 var has_connection : bool = false
